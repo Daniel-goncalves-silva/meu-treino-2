@@ -1,0 +1,13 @@
+Ambiente isolado: PHP 8.3.6, MariaDB 10.11.14 (Linux).
+Schema novo: importação sem erro.
+Fixture antiga: 1 usuário admin, 2 treinos.
+Comparação exata antes/depois de id/nome/email/hash/perfil/criado_em e id/usuario/data/observacao/criado_em dos treinos: IGUAL.
+Itens antigos com exercício/séries/repetições/carga preservados: 2 de 2.
+resultado	treinos_anteriores	itens_copiados
+Migração 002 concluída. Usuários, hashes, IDs e horários anteriores preservados.	2	2
+
+Segunda execução:
+resultado
+Migração 002 já aplicada. Nenhum dado foi alterado.
+
+Não acessou o banco do aluno. Não valida phpMyAdmin/Windows.

@@ -1,0 +1,50 @@
+OK  Cadastro gera hash e ignora tentativa de escolher perfil admin
+OK  Login válido devolve usuário sem hash
+OK  Senha incorreta é rejeitada
+OK  Conta inexistente é rejeitada
+OK  E-mail duplicado é rejeitado
+OK  Treino válido é criado e recuperado
+OK  Séries zero são rejeitadas
+OK  Carga negativa é rejeitada
+OK  Tentativa de enviar data futura é rejeitada (horário automático)
+OK  Tentativa de enviar data inexistente é rejeitada
+OK  Arrays em campos escalares são rejeitados
+OK  Exercício inexistente é rejeitado
+OK  Leitura de outro usuário é negada
+OK  Edição de outro usuário é negada sem alterar registro
+OK  Exclusão de outro usuário é negada
+OK  Proprietário consegue editar
+OK  Proprietário consegue excluir
+OK  Usuário comum não passa pela proteção admin
+OK  Administrador passa pela proteção
+OK  Requisição sem sessão não é autenticada
+OK  Token CSRF válido é aceito
+OK  Token CSRF inválido é rejeitado
+OK  Token antigo é rejeitado após rotação
+OK  Escaping neutraliza HTML em saída
+OK  Grupo muscular fora da lista é rejeitado
+OK  Registro rápido sem séries/repetições/carga
+OK  Treino com vários exercícios
+OK  Texto livre sem exercício do catálogo
+OK  Registro vazio é rejeitado
+OK  Registro não confirmado é rejeitado
+OK  Exercício de outro grupo é rejeitado
+OK  Exercício repetido é rejeitado
+OK  48 horas: antes do limite está em descanso
+OK  48 horas: no limite está disponível
+OK  48 horas: sem registro não há descanso
+OK  Semana começa na segunda
+OK  Gerar sugestão não grava treino nem altera registros
+OK  Tempo 60 monta cinco itens distintos
+OK  Tempo 90 monta seis itens distintos
+OK  Catálogo vazio não inventa exercícios
+OK  Confirmar parte da sugestão cria um único treino
+OK  Edição preserva data confirmada
+OK  Preferências válidas
+OK  Preferência inválida
+OK  Vídeo vazio é aceito
+OK  Vídeo javascript é rejeitado
+OK  Vídeo HTTPS é aceito sintaticamente
+OK  Dois campos livres são rejeitados sem mesclar detalhes
+
+48 aprovado(s); 0 falha(s). PHP 8.3.6
