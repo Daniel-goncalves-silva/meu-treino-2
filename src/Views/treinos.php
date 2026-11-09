@@ -1,0 +1,2 @@
+<div class="page-title section-heading"><div><p class="eyebrow">SUA EVOLUÇÃO</p><h1>Meus treinos</h1><p>Consulte, edite ou exclua seus registros.</p></div><a class="button" href="index.php?view=registrar">+ Registrar treino</a></div>
+<section class="panel"><p id="historico-total">Carregando…</p><div id="historico"></div><div class="pagination"><button id="anterior" class="button secondary" type="button">← Anterior</button><span id="pagina" aria-live="polite"></span><button id="proxima" class="button secondary" type="button">Próxima →</button></div></section>

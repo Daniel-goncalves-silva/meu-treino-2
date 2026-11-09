@@ -1,7 +1,8 @@
 .env
-
-/logs/*.log
-
+/logs/*
+!/logs/.gitkeep
+!/logs/.htaccess
+/tests/evidencias/
 .vscode/
 .DS_Store
 Thumbs.db
